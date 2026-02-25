@@ -3,5 +3,5 @@ function Nome({ aluno, idade }) {
     <span>Bem-vindo: {aluno} - Idade: {idade} anos</span>
   )
 }
-
+// testes iniciais, não está sendo importada
 export default Nome;

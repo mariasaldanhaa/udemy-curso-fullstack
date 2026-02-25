@@ -21,7 +21,7 @@ function App() {
   }, [tarefas]);
 
   function handleRegister(e) {
-    e.preventDefault();
+    e.preventDefault(); //cancela o evento
 
     setTarefas([...tarefas, input])
     setInput('');
